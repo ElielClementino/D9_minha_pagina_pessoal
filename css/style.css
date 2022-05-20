@@ -13,13 +13,12 @@ body{
         font-family: 'Rubik Glitch', cursive;
         font-size:2vw;
         width:0 auto;
-        margin: 0  auto;
         overflow:hidden;
         white-space:nowrap;
-        border-right:2px solid orange;
+        border-right:2px solid rgb(6, 238, 49);
         animation: 
-        deletingType 2s steps(20, end) forwards,
-        blink-caret .8s infinite;
+        writing 2s steps(20) forwards,
+        blinking 1s infinite;
     }
     
     .icons{
@@ -86,23 +85,26 @@ body{
     .ancora_botao_bora{
         color:rgb(255, 255, 255);
     }
+
     button:hover{
-        color: #ff7a59;
-        border: #ff7a59 solid 1px;
-        background:rgba(255,255,255,0.3);
-            }
+        border: #009b4e solid 3px;
+        }
+
     .ancora_nav:hover,.ancora_botao_bora:hover{
         transform:scale(120%);
     }
+
     @keyframes bounce{
         10%  {transform:translateY(50%);border:20px 100%; padding: 0 10px; }
-            30%  { transform: scale(.9,1.1)   translateY(-30%);border:20px 100%; padding: 0 10px;}
+            30%  { transform: scale(.9,1.1)   translateY(-30%);}
     }
-    @keyframes deletingType{
+
+    @keyframes writing{
         from {width:0%}
         to {width:100%}
     }
-    @keyframes blink-caret {
-        from, to { border-color: transparent }
-        100% { border-color: orange; }
+    
+    @keyframes blinking {
+        from { border-color: transparent }
+        100% { border-color: rgb(6, 238, 49); }
       } 
