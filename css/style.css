@@ -7,17 +7,18 @@ body{
     .div_header_efeito{
         display:flex;
         align-self:center;
+        margin-left:5%;
     }
     .nomeH2{
         font-family: 'Rubik Glitch', cursive;
         font-size:2vw;
         width:0 auto;
-        margin:0 auto;
+        margin: 0  auto;
         overflow:hidden;
         white-space:nowrap;
         border-right:2px solid orange;
         animation: 
-        deletingType 1s steps(20, end) forwards,
+        deletingType 2s steps(20, end) forwards,
         blink-caret .8s infinite;
     }
     
@@ -55,8 +56,8 @@ body{
         color:#fff;
     }
     .button_nav{
-        background-color:rgba(207, 236, 43,0.5);
-        border:none;
+        background-color:rgba(207, 236, 43,0.3);
+        border:solid rgba(255, 255, 255,0.7) 3px;
         border-radius:10%;
         height:max-content;
         align-self:center;
@@ -67,7 +68,7 @@ body{
         align-items:center;
         text-align:center;
         color:#fff;
-        margin: 8% auto;
+        margin: 8vw auto;
     }
     .texto_h1{
         width:60%;
@@ -76,13 +77,20 @@ body{
     .button_section_h1{
         width:fit-content;
         font-size:3vw;
-        background-color:rgba(207, 236, 43,0.5);
-        border:none;
-        border-radius:10%;
+        background-color:rgba(207, 236, 43,0.1);
+        border:solid rgba(255, 255, 255,0.7) 3px;
+        border-radius:10px;
+        padding:10px;
+        transition: all 500ms ease;
     }
     .ancora_botao_bora{
-        color:#fff;
+        color:rgb(255, 255, 255);
     }
+    button:hover{
+        color: #ff7a59;
+        border: #ff7a59 solid 1px;
+        background:rgba(255,255,255,0.3);
+            }
     .ancora_nav:hover,.ancora_botao_bora:hover{
         transform:scale(120%);
     }
