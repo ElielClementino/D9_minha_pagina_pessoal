@@ -1,0 +1,130 @@
+body{background-image:none;
+    background-color: #36AE7C;
+}
+.section_topo_sobre{
+    height:76vh;
+    background-color:#36AE7C;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    text-align:center;
+    
+}
+.section_topo_h3{
+    font-size:4vw;
+    color:#fff;
+    width:70%;
+    font-weight:400;
+    line-height: 5vw;
+}
+.section_topo_ancora{
+color:#fff;
+}
+.section_topo_ancora:hover{
+text-decoration:underline;
+text-decoration-color:#09603c;
+font-size:72pt;
+}
+
+.section_meio_sobre{
+    height:40vw;
+    background-color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+.section_div_foto_pessoal{
+    width:50%;
+}
+.minha_foto{
+    width:50%;
+    border-radius:2%;
+    box-shadow:15px 15px 15px 5px aliceblue;
+}
+.section_meio_paragrafo{
+    width:30%;
+    text-align:justify;
+    font-size:2vw;
+    line-height:2.2vw;
+    font-weight:500;
+}
+/****/
+.section_meio_familia{
+    background-color:#fff;
+    height:90vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.div_album_h1{
+font-size:22vw;
+}
+.div_album{
+    display:flex;
+    justify-content:space-around;
+    margin-top:7.5%;
+
+}
+.div_fotos{
+    width:88vw;
+}
+.div_fotos_imagens{
+    width:20vw;
+    border-radius:2%;
+    vertical-align: top;
+    border: solid 2px #000;
+    margin:0.5%;
+}
+.div_rodape_descricao{
+    font-size:2.2vw;
+    width:88vw;
+    text-align:justify;
+    line-height:2.8vw;
+}
+/****/
+.section_hobbies{
+    height:60vw;
+    background-color:#fff;
+    display:flex;
+}
+.section_div_cozinha{
+display:flex;
+align-items:center;
+width:30vw;
+}
+.div_cozinha_img{
+width:10vw;
+}
+/****/
+
+.footer{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction:column;
+    padding:5% 0 5% 0;
+    height:100%;
+}
+.footer_h2{
+font-size:3vw;
+color:#fff;
+font-weight:900;
+}
+.footer_ul_a{
+    margin:2.5vw;
+}
+.footer_icon{
+    width:2.2vw;
+}
+.footer_icon_copyright{
+    width:1vw;
+}
+.footer_p{
+    font-size:1.5vw;
+    color:#fff;
+    display:flex;
+}
+.footer_nav_ul{
+    padding:1.2vw;
+}
