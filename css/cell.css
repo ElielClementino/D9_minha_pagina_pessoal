@@ -8,11 +8,11 @@
 }
 .section_portfolio{
     font-size:3vw;
-    height:615vw;
 }
 .section_portfolio_p{
-    width:50vw;
-    line-height:3vw;
+    /* width:50vw; */
+    line-height:16px;
+    font-size:16px;
 }
 .img_projetos{
     width:24vh;

@@ -1,5 +1,7 @@
-body{
+html,body{
     scroll-behavior:smooth;
+}
+body{
     background: rgba(0, 0, 0, 0.7) url(../imagens/MinhaFoto.jpeg); 
     background-blend-mode: darken;
     background-repeat:no-repeat;
@@ -112,26 +114,36 @@ body{
       /****/
 
       .section_portfolio{
-        height:360vw;
         background-color:rgba(75, 227, 172,1);
-        color:#fff;
+        color:#000;
         font-weight:900;
-        font-size:2vw;
+        font-size:32px;
         display:flex;
         flex-direction:column;
         align-items:center;
-        padding:5vw 0 60vw 0;
+        padding:24px;
     }
+    .section_portfolio_p:not(:last-of-type){
+        margin-bottom:32px;
+    }
+    
     .section_portfolio_p{
-        width:40vw;
-        text-indent:3.8vw;
-        line-height:2.5vw;
-        margin:2vw;
+        width:100%;
+        max-width:1200px;
+        /* text-indent:3.8vw; */
+        line-height:2.1vw;
         text-align:justify;
     }
 .projetosTitle{
-    margin-top:10vw;
+    margin-top:24px;
+    margin-bottom:24px;
     font-size:10vw;
+}
+.projetosTitle::after{
+    content:"}"
+}
+.projetosTitle::before{
+    content:"{"
 }
 .img_projetos{
     width:44vh;
@@ -139,8 +151,9 @@ body{
     border:solid #000 3px;
 }
 .p_video{
-    color:white;
+    color:#000;
     margin-top:10vw;
+    font-weight:700;
 }
 .section_div_projetos{
     display:flex;
@@ -173,6 +186,7 @@ body{
 font-size:3vw;
 color:#000;
 font-weight:900;
+margin-bottom:16px;
 }
 .footer_ul_a{
     margin:2.5vw;
