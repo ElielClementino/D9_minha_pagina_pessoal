@@ -3,6 +3,7 @@ body{
     background-blend-mode: darken;
     background-repeat:no-repeat;
     background-size:100%;
+    scroll-behavior:smooth;
     }
     .div_header_efeito{
         display:flex;
@@ -20,7 +21,6 @@ body{
         writing 2s steps(20) forwards,
         blinking 1s infinite;
     }
-    
     .icons{
         width:50px;
     }
@@ -68,6 +68,7 @@ body{
         text-align:center;
         color:#fff;
         margin: 8vw auto;
+        height:25.5vw;
     }
     .texto_h1{
         width:60%;
@@ -82,6 +83,7 @@ body{
         padding:1vh;
         transition: all 500ms ease;
     }
+
     .ancora_botao_bora{
         color:rgb(255, 255, 255);
     }
@@ -107,3 +109,84 @@ body{
         from { border-color: transparent }
         100% { border-color: rgb(6, 238, 49); }
       } 
+      /****/
+
+      .section_portfolio{
+        height:300vw;
+        background-color:rgba(75, 227, 172,1);
+        color:#fff;
+        font-weight:900;
+        font-size:2vw;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        padding:5vw 0 60vw 0;
+    }
+    .section_portfolio_p{
+        width:40vw;
+        text-indent:4vw;
+        line-height:2vw;
+        margin:2vw;
+    }
+.img_projetos:not(.buserBuscador){
+    width:44vh;
+    margin:1vw;
+    height:15vw;
+    border:solid #000 3px;
+}
+.buserBuscador{
+    width:44vh;
+    margin:1vw;
+    border:solid #000 3px;
+}
+.section_div_projetos{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction:column;
+}
+.div_video{
+    display:Flex;
+    justify-content:space-around;
+    align-items:center;
+}
+    .video_div{
+        width:40vw;
+        margin:1vw;
+}
+/****/
+.footer{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction:column;
+    padding:5% 0 5% 0;
+    height:100%;
+    background-color:#fff;
+}
+.footer_h2{
+font-size:3vw;
+color:#000;
+font-weight:900;
+}
+.footer_ul_a{
+    margin:2.5vw;
+}
+.footer_icon{
+    width:2.2vw;
+}
+.footer_icon_copyright{
+    width:1vw;
+}
+.footer_p{
+    font-size:1.5vw;
+    color:#000;
+    display:flex;
+}
+.footer_nav_ul{
+    padding:1.2vw;
+}
+@media screen and (max-width:1200px){
+    .section_portfolio_p{
+        width:50vw;}
+}
