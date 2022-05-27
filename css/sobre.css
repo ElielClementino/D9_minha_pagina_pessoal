@@ -94,6 +94,12 @@ align-items:center;
 width:30vw;
 }
 .div_cozinha_img{
-width:10vw;
+width:50vw;
 }
 /****/
+.footer{   
+ background-color:#36AE7C;
+}
+.footer_h2,.footer_p{
+    color:#fff;
+}

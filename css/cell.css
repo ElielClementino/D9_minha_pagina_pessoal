@@ -1,0 +1,29 @@
+@media screen and (max-width:1199px){
+    .ul_nav{
+        margin-right:5%;
+    }
+.section_texto_h1{
+    margin: 15vw auto;
+    height:34.8vw;
+}
+.section_portfolio{
+    font-size:3vw;
+    height:615vw;
+}
+.section_portfolio_p{
+    width:50vw;
+    line-height:3vw;
+}
+.img_projetos{
+    width:24vh;
+}
+.footer_h2{
+    font-size:5vw;
+    }    
+.footer_icon{
+    width:3.2vw;
+}
+.footer_p{
+    font-size:2.5vw;
+}
+}
