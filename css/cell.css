@@ -30,7 +30,7 @@
     color:#fff;
     }
     .section_meio_sobre{
-        height:16em;
+        height:20em;
         padding:24px;
         background-color:#fff;
         display:flex;
@@ -87,14 +87,14 @@
     }
     .footer{   
      background-color:#36AE7C;
-     padding:5% 0 5% 0;
+     padding:5% 0 0 0;
     }
     .footer_h2,.footer_p{
         color:#fff;
-        font-size:1.2em;
+        font-size:1.6em;
     }
     .footer_ul_a{
-        margin:1.2em;
+        margin:1em;
     }
     .footer_icon{
         width:1.2em;
