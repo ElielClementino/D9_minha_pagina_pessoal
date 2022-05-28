@@ -2,6 +2,12 @@
     .ul_nav{
         margin-right:5%;
     }
+    .nomeH2{
+        font-size:1em;
+    }
+    .ancora_nav{
+        font-size:1em;
+    }
 .section_texto_h1{
     margin: 15vw auto;
     height:34.8vw;
@@ -26,4 +32,144 @@
 .footer_p{
     font-size:2.5vw;
 }
+.video_div{
+    width:13em;
+    margin:1em;
+}
+.footer_h2{
+    font-size:1.45em;
+    margin-bottom:8px;
+    }
+    .footer_ul_a{
+        margin:0.4em;
+    }
+    .footer_icon{
+        width:1.6em;
+    }
+    .footer_icon_copyright{
+        margin-left:0.4em;
+        width:5vw;
+    }
+    .footer_p{
+        font-size:1.2em;
+        color:#000;
+        display:flex;
+    }
+    .footer_nav_ul{
+        padding:1em;
+    }
+}
+@media screen and (max-width:1199px){
+    body{background-image:none;
+        background-color: #36AE7C;
+    }
+    .section_topo_sobre{
+        height:55.5vw;
+        background-color:#36AE7C;
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        text-align:center;
+        
+    }
+    .nomeH2{
+        font-family: 'Rubik Glitch', cursive;
+        font-size:1em;
+    }
+    .ancora_nav{
+        font-size:1em;
+    }
+    .section_topo_h3{
+        font-size:1.3em;
+        color:#fff;
+        width:70%;
+        font-weight:500;
+        line-height: 7vw;
+        text-align: justify;
+    }
+    .section_topo_ancora{
+    color:#fff;
+    }
+    .section_meio_sobre{
+        height:16em;
+        padding:24px;
+        background-color:#fff;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+    }
+    .section_div_foto_pessoal{
+        width:100%;
+    }
+    .minha_foto{
+        width:100%;
+        padding:8px;
+        border-radius:2%;
+        box-shadow:15px 15px 15px 5px aliceblue;
+    }
+    .section_meio_paragrafo{
+        width:100%;
+        max-width:400px;
+        text-align:justify;
+        font-size:0.7em;
+        line-height:3.6vw;
+        font-weight:500;
+    }
+    /****/
+    .section_meio_familia{
+        background-color:#fff;
+        height:90vw;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .div_album{
+        display:flex;
+        justify-content:space-around;
+        margin-top:7.5%;
+    
+    }
+    .div_fotos{
+        width:90%;
+    }
+    .div_fotos_imagens{
+        width:22%;
+        border-radius:2%;
+        vertical-align: top;
+        border: solid 2px #000;
+        margin:0.5%;
+    }
+    .div_rodape_descricao{
+        font-size:0.8em;
+        width:90%;
+        text-align:justify;
+        line-height:2.8vw;
+    }
+    .footer{   
+     background-color:#36AE7C;
+     padding:5% 0 5% 0;
+    }
+    .footer_h2,.footer_p{
+        color:#fff;
+        font-size:1.2em;
+    }
+    .footer_ul_a{
+        margin:1.2em;
+    }
+    .footer_icon{
+        width:1.2em;
+    }
+    .footer_icon_copyright{
+        width:1vw;
+    }
+    .footer_p{
+        font-size:1em;
+        display:flex;
+    }
+    .footer_icon_copyright{
+        margin-left:0.3em;
+        width:0.8em;
+    }
+    
 }

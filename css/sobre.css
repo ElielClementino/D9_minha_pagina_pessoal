@@ -82,21 +82,6 @@ font-size:22vw;
     text-align:justify;
     line-height:2.8vw;
 }
-/****/
-.section_hobbies{
-    height:60vw;
-    background-color:#fff;
-    display:flex;
-}
-.section_div_cozinha{
-display:flex;
-align-items:center;
-width:30vw;
-}
-.div_cozinha_img{
-width:50vw;
-}
-/****/
 .footer{   
  background-color:#36AE7C;
 }
