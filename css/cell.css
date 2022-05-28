@@ -91,7 +91,9 @@
     }
     .footer_h2,.footer_p{
         color:#fff;
-        font-size:1.6em;
+    }
+    .footer_h2{
+        font-size:1.2em;
     }
     .footer_ul_a{
         margin:1em;
