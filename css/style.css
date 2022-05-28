@@ -151,6 +151,8 @@ body{
     border:solid #000 3px;
 }
 .p_video{
+    font-size:32px;
+    padding-left:36px;
     color:#000;
     margin-top:5em;
     font-weight:700;

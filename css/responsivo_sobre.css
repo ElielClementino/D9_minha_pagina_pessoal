@@ -32,9 +32,6 @@
 .img_projetos{
     width:24vh;
 }
-.footer_h2{
-    font-size:5vw;
-    }    
 .footer_icon{
     width:3.2vw;
 }
@@ -45,8 +42,12 @@
     width:13em;
     margin:1em;
 }
+.p_video{
+    font-size:15px;
+    padding-left:15px;
+}
 .footer_h2{
-    font-size:1.45em;
+    font-size:1.30em;
     margin-bottom:8px;
     }
     .footer_ul_a{
